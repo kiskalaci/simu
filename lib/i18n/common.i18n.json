@@ -1,0 +1,37 @@
+{
+  "title": "SimuBank",
+  "simuBank": "Simu Bank",
+  "digitalBanking": "Digital Banking",
+  "errorHasOccurred": "An error has occurred",
+  "hello": "Hello",
+  "search": "Search",
+  "cancel": "Cancel",
+  "settings": "Settings",
+  "ok": "Ok",
+
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "registration": "Registration",
+    "noAccountYet": "No account yet? Create now!"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "transactionDetails": "Transaction details",
+    "noTransactions": "No transactions",
+    "date": "Date",
+    "merchant": "Merchant",
+    "category": "Category",
+    "toAccount": "To Account"
+  },
+  "operation": {
+    "successfulOperation": "Successful operation!",
+    "errorHappened": "Error happened!"
+  },
+  "validation": {
+    "invalidEmail": "Invalid email address",
+    "fieldRequired": "Field required"
+  }
+}

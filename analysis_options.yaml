@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - require_trailing_commas
+    - prefer_double_quotes
+    - prefer_expression_function_bodies
+    - avoid_print
+
+
+
+   
