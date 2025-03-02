@@ -5,6 +5,7 @@ import "package:riverpod/riverpod.dart";
 import "package:simu/features/auth/providers/auth_provider.dart";
 import "package:simu/models/transaction.dart";
 
+/// A Riverpod provider that fetches a list of transactions for the authenticated user.
 final transactionsProvider = FutureProvider((ref) async {
   final userId = ref.read(authProvider)?.id;
 

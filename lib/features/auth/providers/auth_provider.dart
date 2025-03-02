@@ -4,6 +4,8 @@ import "package:http/http.dart" as http;
 import "package:riverpod/riverpod.dart";
 import "package:simu/models/user.dart";
 
+/// A [StateNotifier] that manages user authentication state.
+/// It holds the current authenticated [User] or null if no user is logged in.
 class AuthNotifier extends StateNotifier<User?> {
   AuthNotifier() : super(null);
 

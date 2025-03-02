@@ -1,9 +1,7 @@
 import "package:flutter/material.dart";
 
+/// App spacing theme, using the 8 pixel spacing base.
 abstract class Spacing {
-  ///2
-  static const double quarter = 2;
-
   ///4
   static const double half = 4;
 
@@ -32,6 +30,7 @@ abstract class Spacing {
   static const double huge = 72;
 }
 
+/// Utility extension method on [double], to create horizontal or vertical gaps.
 extension SpacingExtension on double {
   Widget get horizontalGap => SizedBox(width: this);
   Widget get verticalGap => SizedBox(height: this);
