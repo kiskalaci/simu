@@ -22,10 +22,6 @@ GoRouter getRouterConfig(WidgetRef ref) {
       GoRoute(
         path: "/",
         redirect: (context, state) {
-          // if (supabase.auth.currentSession.isNull) {
-          //   return "/login";
-          // }
-
           if (user == null) {
             return "/login";
           }

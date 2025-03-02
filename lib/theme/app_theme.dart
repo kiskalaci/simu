@@ -38,22 +38,7 @@ ThemeData get lightTheme {
         borderSide: BorderSide(color: colors.blueGrey, width: 2),
       ),
     ),
-    // searchBarTheme: SearchBarThemeData(
-    //   backgroundColor: WidgetStatePropertyAll(colors.background5),
-    //   elevation: const WidgetStatePropertyAll(0),
-    //   textStyle: WidgetStatePropertyAll(typo.body),
-    //   hintStyle: WidgetStatePropertyAll(
-    //     typo.body.colored(
-    //       colors.secondary,
-    //     ),
-    //   ),
 
-    // searchViewTheme: SearchViewThemeData(
-    //   backgroundColor: colors.background5,
-    //   headerTextStyle: typo.body,
-    //   headerHintStyle: typo.body,
-    //   dividerColor: colors.secondary,
-    // ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         foregroundColor: colors.white,
